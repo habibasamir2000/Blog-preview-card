@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.div-1{
+    background-color:hsl(47, 88%, 63%);
+    height: 100vh;
+     font-family: "Figtree";
+}
+.div-2{
+    width: 70%;
+    max-width: 300px;
+    box-shadow:  black 5px 5px ;
+}
+span{
+    font-size: 12px;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 700;
+    padding: 5px 10px;
+}
+.Published{
+    font-size: 12px;
+    font-weight: 500;
+}
+h1{
+    font-weight: 800 !important;
+}
+h1:hover{
+
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.pagrah{
+    font-size: 13px;
+}
+.avatar{
+    width: 10%;
+    max-width: 30px;
+}
+.name{
+    font-size: 12px;
+    font-weight: 800;
+    display: inline-block;
+}
+@media screen and (max-width: 400px) {
+   h1{
+    font-size: 10px;
+   }
+    
+}
